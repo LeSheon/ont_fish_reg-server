@@ -1,3 +1,5 @@
+const { addZoneZero } = require("../utils/db_helpers");
+
 require("dotenv").config();
 const knex = require("knex")(require("../knexfile"));
 
@@ -11,6 +13,18 @@ const getZone = async (_req, res) => {
     }
 };
 
+async function getZoneByNumber(req, res) {
+  try {
+    const zoneNum = req.params.zoneNum;
+    const zoneData = await knex.select("*").from(`zone_${addZoneZero(zoneNum)}`);
+
+    res.status(200).json(zoneData);
+  } catch(error) {
+    res.status(400).send(`ERROR retreiving Zone ${zoneNum}'s Data: ${error}`);
+  }
+}
+
 module.exports = {
-    getZone
+    getZone,
+    getZoneByNumber
 }

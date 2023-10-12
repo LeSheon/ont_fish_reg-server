@@ -15,7 +15,7 @@ app.get("/", (_req, res) => {
     res.send("Welcome to Ontario Fishing Regulation API")
 })
 
-app.get("/zone", zoneRoutes);
+app.use("/zone", zoneRoutes);
 
 app.listen(PORT, ()=> {
     console.log(`Listening to PORT ${PORT}`);
