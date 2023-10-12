@@ -11,7 +11,7 @@ const { addZoneZero } = require("../utils/db_helpers");
             table.string('s_limit_desc');
             table.integer('c_limit');
             table.string('c_limit_desc');
-            table.date('valid_date').notNullable();
+            table.timestamp('valid_date').notNullable();
             table
                 .integer('ont_zone_id')
                 .unsigned()
