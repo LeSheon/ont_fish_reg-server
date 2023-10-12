@@ -7,9 +7,9 @@ function addZoneZero(num){
   }
 
 function getValidTimestamp(year){
-  const date = new Date(`December 17, ${year} 23:59:59`);
+  const date = new Date(`December 31, ${year} 18:59:59`);
 
-  return date.getMilliseconds();
+  return date.getTime();
 }
 
 module.exports = {

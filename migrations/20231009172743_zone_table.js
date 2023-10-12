@@ -3,7 +3,7 @@ const { addZoneZero } = require("../utils/db_helpers");
   exports.up = async function(knex) {
     
     for(let i=1;i<21;i++){
-        await knex.schema.createTable(`ont_zone_${addZoneZero(i)}`, (table) => {
+        await knex.schema.createTable(`zone_${addZoneZero(i)}`, (table) => {
             table.increments('id').primary;
             table.string('species').notNullable();
             table.string('season');
@@ -11,7 +11,7 @@ const { addZoneZero } = require("../utils/db_helpers");
             table.string('s_limit_desc');
             table.integer('c_limit');
             table.string('c_limit_desc');
-            table.timestamp('valid_date').notNullable();
+            table.string('valid_year').notNullable();
             table
                 .integer('ont_zone_id')
                 .unsigned()
@@ -25,6 +25,6 @@ const { addZoneZero } = require("../utils/db_helpers");
   
   exports.down = async function(knex) {
     for(let i=1;i<21;i++) {
-        await knex.schema.dropTable(`ont_zone_${addZoneZero(i)}`);
+        await knex.schema.dropTable(`zone_${addZoneZero(i)}`);
     }
   };
