@@ -1,7 +1,6 @@
-const { addZoneZero } = require("../utils/db_helpers");
-
 require("dotenv").config();
 const knex = require("knex")(require("../knexfile"));
+const { addZoneZero } = require("../utils/db_helpers");
 
 const getZone = async (_req, res) => {
     try {

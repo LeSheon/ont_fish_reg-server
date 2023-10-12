@@ -5,5 +5,4 @@ router.route("/").get(zoneController.getZone);
 
 router.route("/:zoneNum").get(zoneController.getZoneByNumber);
 
-
 module.exports = router;
