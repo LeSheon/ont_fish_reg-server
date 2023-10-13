@@ -6,6 +6,6 @@ exports.seed = async function(knex) {
 
   for(let i=1;i<21;i++){
     await knex('ont_zone').insert(
-      {zone_number: `zone_${addZoneZero(i)}`});
+      {zone: `Zone ${addZoneZero(i)}`});
   }
 };
