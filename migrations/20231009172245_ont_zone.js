@@ -2,7 +2,7 @@
 exports.up = function(knex) {
   return knex.schema.createTable('ont_zone', (table) => {
     table.increments('id').primary;
-    table.string('zone_number').notNullable();
+    table.string('zone').notNullable();
   })
 };
 
