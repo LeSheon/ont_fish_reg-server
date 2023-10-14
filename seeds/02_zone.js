@@ -1,4 +1,4 @@
-const { addZoneZero, getValidTimestamp } = require("../utils/db_helpers");
+const { addZoneZero } = require("../utils/db_helpers");
 const zoneData = [require("./seed_data/zone_01.json"), require("./seed_data/zone_02.json")
 ,require("./seed_data/zone_03.json"), require("./seed_data/zone_04.json"), require("./seed_data/zone_05.json")
 ,require("./seed_data/zone_06.json"),require("./seed_data/zone_07.json")
