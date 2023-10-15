@@ -12,18 +12,18 @@ const getZone = async (_req, res) => {
     }
 };
 
-async function getZoneByNumber(req, res) {
+async function getZoneById(req, res) {
   try {
-    const zoneNum = req.params.zoneNum;
-    const zoneData = await knex.select("*").from(`zone_${addZoneZero(zoneNum)}`);
+    const zoneId = req.params.zoneId;
+    const zoneData = await knex.select("*").from(`zone_${addZoneZero(zoneId)}`);
 
     res.status(200).json(zoneData);
   } catch(error) {
-    res.status(400).send(`ERROR retreiving Zone ${zoneNum}'s Data: ${error}`);
+    res.status(400).send(`ERROR retreiving Zone ${zoneId}'s Data: ${error}`);
   }
 }
 
 module.exports = {
     getZone,
-    getZoneByNumber
+    getZoneById
 }

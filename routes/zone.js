@@ -3,6 +3,6 @@ const zoneController = require("../controllers/zone-controller");
 
 router.route("/").get(zoneController.getZone);
 
-router.route("/:zoneNum").get(zoneController.getZoneByNumber);
+router.route("/:zoneId").get(zoneController.getZoneById);
 
 module.exports = router;
