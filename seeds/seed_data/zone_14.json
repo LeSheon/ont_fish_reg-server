@@ -1,0 +1,129 @@
+[
+    
+  {
+    "species": "Trout and Salmon (Aggregate and Including Splake)",
+    "s_limit": 5,
+    "c_limit": 2,
+    "c_limit_desc": "Total daily catch and possession limit for all trout and salmon species combined"
+  },
+  
+  {
+    "species": "Atlantic Salmon",
+    "season": "Open all year",
+    "s_limit": 1,
+    "c_limit": 0
+  },
+  
+  {
+    "species": "Brown Trout",
+    "season": "Open all year",
+    "s_limit": 5,
+    "c_limit": 2
+  },
+  
+  {
+    "species": "Channel Catfish",
+    "season": "Open all year",
+    "s_limit": 12,
+    "c_limit": 6
+  },
+  
+  {
+    "species": "Crappie",
+    "season": "Open all year",
+    "s_limit": 30,
+    "c_limit": 10
+  },
+
+  {
+    "species": "Lake Herring (cisco)",
+    "season": "Open all year",
+    "s_limit": 25,
+    "c_limit": 12
+  },
+  
+  
+  {
+    "species": "Lake Sturgeon",
+    "season": "Closed all year"
+  },
+  
+  {
+    "species": "Lake Trout",
+    "season": "Jan 01 ~ Sept 30 and Dec 01 ~ Dec 31",
+    "s_limit": 2,
+    "c_limit": 1
+  },
+  
+  {
+    "species": "Lake Whitefish",
+    "season": "Open all year",
+    "s_limit": 12,
+    "c_limit": 6	
+  },
+  
+  {
+    "species": "Largemouth and Smallmouth Bass (Combined)",
+    "season": "4th Saturday in Jun ~ Nov 30",
+    "s_limit": 3,
+    "c_limit": 1
+  },
+  
+  {
+    "species": "Muskellunge",
+    "season": "3rd Saturday in Jun ~ Dec 15",
+    "s_limit": 1,
+    "s_limit_desc": "Must be greater than 137cm",
+    "c_limit": 0
+  },
+  
+  {
+    "species": "Northern Pike",
+    "season": "Jan 01 ~ Mar 01 and May 01 ~ Dec 31",
+    "s_limit": 2,
+    "s_limit_desc" : "In one day, possession limit of 4, not more than 1 greater than 86cm",
+    "c_limit": 1,
+    "c_limit_desc" : "In one day, possession limit of 2, not more than 1 greater than 86cm"
+
+  },
+  
+  {
+    "species": "Pacific Salmon",
+    "season": "Open all year",
+    "s_limit": 5,
+    "c_limit": 2
+  },
+  
+  {
+    "species": "Rainbow Trout",
+    "season": "Open all year",
+    "s_limit": 2,
+    "c_limit": 1
+  },
+  
+  {
+    "species": "Sunfish",
+    "season": "Open all year",
+    "s_limit": 50,
+    "c_limit": 25
+  },
+  
+  {
+    "species": "Walleye and Sauger (Combined)",
+    "season": "Open all year",
+    "s_limit": 6,
+    "s_limit_desc" : "In one day, possession limit of 4, none between 41~56cm, not more than 1 greater than 56cm",
+    "c_limit": 2,
+    "c_limit_desc" : "In one day, possession limit of 2, none between 41~56cm, not more than 1 greater than 56cm"
+  },
+  
+  {
+    "species": "Yellow Perch",
+    "season": "Open all year",
+    "s_limit": 50,
+    "s_limit_desc" : "In one day, possession limit of 50",
+    "c_limit": 25,
+    "c_limit_desc" : "In one day, possession limit of 25"
+  }
+  
+  ]

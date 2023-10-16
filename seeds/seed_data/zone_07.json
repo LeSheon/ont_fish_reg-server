@@ -1,0 +1,111 @@
+[
+    
+  {
+    "species": "Trout and Salmon (Aggregate and Including Splake)",
+    "s_limit": 5,
+    "c_limit": 2,
+    "c_limit_desc": "Total daily catch and possession limit for all trout and salmon species combined"
+  },
+  
+  {
+    "species": "Atlantic Salmon",
+    "season": "Open all year",
+    "s_limit": 1,
+    "c_limit": 0
+  },
+  
+  {
+    "species": "Brook Trout",
+    "season": "Jan 01 ~ Labour Day",
+    "s_limit": 5,
+    "s_limit_desc" : "Not more than 2 greater than 30cm, of which not more than 1 greater than 40cm",
+    "c_limit": 2,
+    "c_limit_desc": "Not more than 1 greater than 30cm, of which none greater than 40cm"
+  },
+  
+  {
+    "species": "Brown Trout",
+    "season": "Open all year",
+    "s_limit": 5,
+    "c_limit": 2
+  },
+  
+  {
+    "species": "Lake Sturgeon",
+    "season": "Closed all year"
+  },
+  
+  {
+    "species": "Lake Trout",
+    "season": "Jan 01 ~ Sept 30",
+    "s_limit": 2,
+    "c_limit": 1
+  },
+  
+  {
+    "species": "Lake Whitefish",
+    "season": "Open all year",
+    "s_limit": 25,
+    "c_limit": 12	
+  },
+  
+  {
+    "species": "Largemouth and Smallmouth Bass (Combined)",
+    "season": "Open all year",
+    "s_limit": 6,
+    "c_limit": 2
+  },
+  
+  {
+    "species": "Northern Pike",
+    "season": "Open all year",
+    "s_limit": 6,
+    "s_limit_desc" : "Not more than 2 greater than 61cm, of which not more than 1 greater than 86cm",
+    "c_limit": 2,
+    "c_limit_desc": "Not more than 1 greater than 61cm, none greater than 86cm"
+  },
+  
+  {
+    "species": "Pacific Salmon",
+    "season": "Open all year",
+    "s_limit": 5,
+    "c_limit": 2
+  },
+  
+  {
+    "species": "Rainbow Trout",
+    "season": "Open all year",
+    "s_limit": 1,
+    "c_limit": 0
+  },
+  
+  {
+    "species": "Splake",
+    "season": "Open all year",
+    "s_limit": 5,
+    "c_limit": 2
+  },
+  
+  {
+    "species": "Sunfish",
+    "season": "Open all year",
+    "s_limit": 50,
+    "c_limit": 25
+  },
+  
+  {
+    "species": "Walleye and Sauger (Combined)",
+    "season": "Jan 01 ~ Apr 14 and 3rd Saturday in May ~ Dec 31",
+    "s_limit": 4,
+    "c_limit": 2,
+    "c_limit_desc": "Not more than 1 greater than 46cm"
+  },
+  
+  {
+    "species": "Yellow Perch",
+    "season": "Open all year",
+    "s_limit": 50,
+    "c_limit": 25
+  }
+  
+  ]
